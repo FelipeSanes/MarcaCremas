@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4efe7"/>
+      <stop offset="1" stop-color="#e3ead9"/>
+    </linearGradient>
+    <radialGradient id="sol" cx=".72" cy=".3" r=".45">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#sol)"/>
+  <circle cx="1150" cy="300" r="260" fill="#f3e1d6" opacity=".7"/>
+  <!-- hojas -->
+  <g fill="#4f6b4a">
+    <path d="M1480 40c-160 40-260 170-270 330 150-40 250-170 270-330Z" opacity=".35"/>
+    <path d="M1530 380c-170 0-300 90-350 230 160 10 290-80 350-230Z" opacity=".25"/>
+    <path d="M820 900c10-180 110-300 260-340-20 160-110 280-260 340Z" opacity=".22"/>
+    <path d="M1600 760c-140-60-280-40-380 60 140 70 280 50 380-60Z" opacity=".3"/>
+  </g>
+  <g stroke="#4f6b4a" stroke-width="4" fill="none" opacity=".4">
+    <path d="M1480 40 1210 370M1530 380 1180 610M820 900 1080 560"/>
+  </g>
+  <!-- mesa -->
+  <ellipse cx="1150" cy="760" rx="420" ry="40" fill="#2d3129" opacity=".07"/>
+  <!-- frasco alto -->
+  <rect x="930" y="330" width="44" height="70" rx="8" fill="#4f6b4a"/>
+  <path d="M905 400h94l26 50v290a24 24 0 0 1-24 24h-98a24 24 0 0 1-24-24V450Z" fill="#faf7f2" stroke="#4f6b4a" stroke-width="5"/>
+  <rect x="905" y="540" width="94" height="110" rx="8" fill="#dfe8d6"/>
+  <!-- gotero -->
+  <rect x="1098" y="400" width="30" height="80" rx="15" fill="#b5836a"/>
+  <rect x="1086" y="470" width="54" height="36" rx="8" fill="#b5836a"/>
+  <rect x="1060" y="506" width="106" height="258" rx="24" fill="#f6e6c8" stroke="#b5836a" stroke-width="5"/>
+  <!-- pote -->
+  <rect x="1225" y="590" width="200" height="40" rx="10" fill="#4f6b4a"/>
+  <rect x="1205" y="626" width="240" height="138" rx="28" fill="#faf7f2" stroke="#4f6b4a" stroke-width="5"/>
+  <rect x="1245" y="664" width="160" height="56" rx="8" fill="#f3e1d6"/>
+  <!-- jabón -->
+  <rect x="1470" y="700" width="170" height="70" rx="28" fill="#e6e0ef" stroke="#7a6a9a" stroke-width="5"/>
+</svg>
