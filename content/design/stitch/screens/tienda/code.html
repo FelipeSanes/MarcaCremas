@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#f4f0eb","primary-fixed-dim":"#cfbdfe","on-primary-fixed":"#201047","secondary-container":"#fdc7cb","on-background":"#1c1c19","surface-variant":"#e6e2dd","on-primary":"#ffffff","secondary-fixed-dim":"#eeb9bd","on-tertiary-container":"#eedaff","tertiary":"#594176","background":"#fdf9f4","on-error":"#ffffff","surface-container-high":"#ebe8e3","on-error-container":"#93000a","on-tertiary":"#ffffff","on-tertiary-fixed":"#260e42","on-secondary":"#ffffff","surface-bright":"#fdf9f4","error-container":"#ffdad6","on-secondary-fixed":"#301216","outline":"#7a7580","surface-dim":"#ddd9d5","primary":"#53437b","tertiary-container":"#725990","surface-tint":"#65558f","on-surface-variant":"#49454f","primary-fixed":"#e9ddff","secondary":"#7c5357","on-surface":"#1c1c19","surface-container-low":"#f7f3ee","on-secondary-container":"#795154","surface-container-lowest":"#ffffff","surface":"#fdf9f4","on-primary-fixed-variant":"#4d3d75","on-primary-container":"#e8dcff","on-secondary-fixed-variant":"#623c40","outline-variant":"#cac4d0","tertiary-fixed":"#eedbff","tertiary-fixed-dim":"#d8bbf8","primary-container":"#6b5b95","surface-container":"#f1ede8","surface-container-highest":"#e6e2dd","inverse-primary":"#cfbdfe","on-tertiary-fixed-variant":"#533c70","inverse-surface":"#31302d","error":"#ba1a1a","secondary-fixed":"#ffdadc"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-md":"1rem","space-lg":"1.75rem","space-2xl":"4.5rem","margin":"3rem","gutter-mobile":"1rem","space-sm":"0.5rem","gutter":"1.5rem","space-xl":"3rem","margin-mobile":"1.25rem","space-xs":"0.25rem"},fontFamily:{"display-mobile":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"price-lg":["Plus Jakarta Sans"],"price-md":["Plus Jakarta Sans"],"display":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"]},fontSize:{"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"500"}],"price-lg":["20px",{"lineHeight":"24px","letterSpacing":"0.02em","fontWeight":"500"}],"price-md":["15px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0.01em","fontWeight":"400"}],"label-lg":["13px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"400"}],"title-lg":["18px",{"lineHeight":"26px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["11px",{"lineHeight":"14px","letterSpacing":"0.1em","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"500"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-surface-variant"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Aura Botanica Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLWdBsr31GU4PnjG9-hhGNC7EI1MDjHRJqnBFiQFu2CNDqV29bcsgAB9C2q38m0cT6gtCHZz3iRardmE_fapkp-kSPLZu7tseYPk80LZJJYfenyyIV6ixCLeZmjgTYe4q060AqALMYajrP2sA8nhPP475-n_B1R2EtgkV3Fhg97YTHM4DqFEp2sp9C1vUqyAXVssiLaxy5eYXsQljNI189K_IFjX6ZNddQFiEy7GKXXwV69s-ROkobIQ"/><a class="font-headline-sm text-headline-sm text-on-surface tracking-wide" data-path="inicio" href="#">Aura Botanica</a></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-title-md"><a aria-current="page" class="transition-colors text-primary font-title-md" data-path="inicio" href="#">Inicio</a><div class="relative group py-space-sm"><button class="flex items-center gap-space-xs font-title-md text-title-md text-on-surface-variant group-hover:text-primary transition-colors focus:outline-none" type="button"><span>Explorar</span><span class="material-symbols-outlined text-[18px] transition-transform duration-200 group-hover:rotate-180">expand_more</span></button><div class="absolute top-full left-0 pt-space-xs hidden group-hover:block transition-all"><div class="w-56 py-space-sm bg-surface-container-lowest rounded-lg border border-surface-variant shadow-[0px_16px_36px_-6px_rgba(107,91,149,0.08)] flex flex-col"><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="catalogo-completo" href="#">Catálogo Completo</a><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="cuidado-facial" href="#">Cuidado Facial</a><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="higiene-y-bano" href="#">Higiene &amp; Baño</a><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="rutinas-botanicas" href="#">Rutinas Botánicas</a><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="novedades" href="#">Novedades</a></div></div></div><a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="nosotros" href="#">Filosofía</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-primary transition-colors" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-sm"><button aria-label="Buscar formulación" class="p-space-xs text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><a aria-label="Lista de deseos" class="p-space-xs text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center" data-path="favoritos" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span></a><button aria-label="Bolsa de compra con 2 artículos" class="relative p-space-xs text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center">2</span></button><a aria-label="Perfil de usuario" class="ml-space-xs" data-path="mi-cuenta" href="#"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></a></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Interactive Utility Data Layer & Scripts -->
+<script>
+    function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      if (!drawer) return;
+      if (drawer.classList.contains('hidden')) {
+        drawer.classList.remove('hidden');
+        setTimeout(() => {
+          drawer.querySelector('.drawer-backdrop')?.classList.remove('opacity-0');
+          drawer.querySelector('.drawer-panel')?.classList.remove('translate-x-full');
+        }, 10);
+      } else {
+        drawer.querySelector('.drawer-backdrop')?.classList.add('opacity-0');
+        drawer.querySelector('.drawer-panel')?.classList.add('translate-x-full');
+        setTimeout(() => drawer.classList.add('hidden'), 300);
+      }
+    }
+
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (!modal) return;
+      modal.classList.remove('hidden');
+      setTimeout(() => {
+        modal.querySelector('.modal-backdrop')?.classList.remove('opacity-0');
+        modal.querySelector('.modal-panel')?.classList.remove('scale-95', 'opacity-0');
+      }, 10);
+    }
+
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      if (!modal) return;
+      modal.querySelector('.modal-backdrop')?.classList.add('opacity-0');
+      modal.querySelector('.modal-panel')?.classList.add('scale-95', 'opacity-0');
+      setTimeout(() => modal.classList.add('hidden'), 250);
+    }
+
+    function filterCategory(btn, category) {
+      document.querySelectorAll('.cat-pill').forEach(el => {
+        el.classList.remove('bg-primary', 'text-on-primary');
+        el.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+      btn.classList.add('bg-primary', 'text-on-primary');
+      btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+
+      const items = document.querySelectorAll('.product-card');
+      items.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    function adjustQty(elementId, delta) {
+      const el = document.getElementById(elementId);
+      if (!el) return;
+      let val = parseInt(el.innerText || el.value || '1', 10);
+      val = Math.max(1, val + delta);
+      if (el.tagName === 'INPUT') el.value = val;
+      else el.innerText = val;
+    }
+  </script>
+<!-- Editorial Sub-Navigation / Micro Bar -->
+<section class="w-full bg-surface-container-low py-space-xs px-margin-mobile md:px-margin">
+<div class="max-w-[1440px] mx-auto flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm text-body-sm font-body-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-space-xs text-secondary font-label-md">
+<span class="material-symbols-outlined text-[16px]">local_florist</span>
+          Cosecha de Primavera
+        </span>
+<span class="text-surface-variant">|</span>
+<span>Envío estándar bonificado en compras superiores a $60.00</span>
+</div>
+<div class="flex items-center gap-space-md text-label-md font-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#rutinas">
+<span class="material-symbols-outlined text-[15px]">auto_awesome</span>
+          Diagnóstico de Piel 3 Minutos
+        </a>
+<button class="text-primary hover:text-tertiary transition-colors flex items-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+          Bolsa (2)
+        </button>
+</div>
+</div>
+</section>
+<!-- Hero Section / Portada -->
+<section class="relative w-full bg-surface-container-lowest overflow-hidden pb-space-2xl pt-space-lg">
+<!-- Ambient Botanical Backlight -->
+<div class="absolute -top-32 right-0 w-[550px] h-[550px] rounded-full bg-gradient-to-br from-secondary-container/40 via-primary-fixed/30 to-transparent blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-0 left-10 w-[420px] h-[420px] rounded-full bg-gradient-to-tr from-secondary-fixed/40 via-surface-container-low to-transparent blur-3xl pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Text Column -->
+<div class="lg:col-span-7 space-y-space-lg pr-0 lg:pr-space-xl">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed text-label-md font-label-md tracking-wider uppercase">
+<span class="material-symbols-outlined text-[14px]">nature</span>
+            Cosmética Botánica Regenerativa
+          </div>
+<div class="space-y-space-md">
+<h1 class="font-display text-display text-on-surface leading-tight tracking-tight">
+              El Renacer <span class="italic font-display text-primary">Natural</span> de tu Piel
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+              Formulaciones botánicas puras, creadas con respeto hacia tu cuerpo y la naturaleza. Extraemos la quintaesencia floral mediante procesos de baja temperatura para conservar cada principio activo intacto.
+            </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="px-space-xl py-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-tertiary transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-space-xs" href="#catalogo">
+<span>Explorar Catálogo</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<button class="px-space-lg py-4 rounded-full bg-surface-container-low text-primary font-label-lg text-label-lg hover:bg-secondary-container hover:text-on-secondary-container transition-all flex items-center gap-space-xs" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">play_circle</span>
+<span>Ver Formulación Destacada</span>
+</button>
+</div>
+<!-- Trust Badges -->
+<div class="pt-space-lg grid grid-cols-2 sm:grid-cols-4 gap-space-md">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">spa</span>
+<div>
+<p class="font-label-md text-label-md text-on-surface">100% Vegano</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sin derivados</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">cruelty_free</span>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Cruelty Free</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Certificación Leaping</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[20px]">recycling</span>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Envases Eco</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">100% Reciclables</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[20px]">verified</span>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Test Dermocosmético</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pieles sensibles</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Imagery Column (Bento Editorial Collage) -->
+<div class="lg:col-span-5 relative mt-space-xl lg:mt-0">
+<div class="relative mx-auto max-w-[440px] aspect-[4/5] rounded-xl overflow-hidden bg-surface-container shadow-xl">
+<img class="w-full h-full object-cover object-center" data-alt="Close up aesthetic shot of luxury botanical serum dropper bottle with glass texture resting on pale cream stone surrounded by soft dried lavender and pink petals, warm soft directional sunlight, high-end editorial cosmetics photography with soft lilac reflections." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ5qa4BtSETO9RrP4CRHuu-CQIrE480ePzrQvSmwXvugsRSNYH1b0aJJzPlzAsSkw_JdVjkuUw6B8VP7SbvYLPE2JTC43YxrhPZH1xwud8joUqSQKEQwYRecFrNLFI9eVM56skD_0v9G2HMkk5rFfuYY8ueHCp2U0FZxCMz_sufiBz-CePMoYl3Ko8ZHfXT3weB9M0EvC6bmbrlI-JydOj0UP4CySJLkjJJ3PYpl5iraiNFV3WsGLthQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/50 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 p-space-md rounded-lg bg-surface/90 backdrop-blur-md">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Cosecha Limitada 2025</span>
+<span class="font-price-md text-price-md text-secondary font-semibold">99.4% Origen Natural</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface">Aceite Silvestre &amp; Rosas</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Extracción por prensado en frío de primera prensada.</p>
+</div>
+</div>
+<!-- Floating Accent Badge -->
+<div class="absolute -bottom-6 -left-6 bg-surface-container-lowest p-space-md rounded-xl shadow-lg flex items-center gap-space-sm max-w-[240px]">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container shrink-0">
+<span class="material-symbols-outlined text-[20px]">award_star</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Premio Belleza Limpia</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mejor Sérum Orgánico</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Category Directory & Quick Nav Bar -->
+<section class="w-full bg-surface-bright py-space-xl scroll-mt-20" id="catalogo">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest block mb-space-xs">Colección Botánica</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Fórmulas Seleccionadas a Mano</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Cada preparado está balanceado con pH fisiológico e ingredientes biológicos certificados sin parabenos, sulfatos ni fragancias artificiales.
+        </p>
+</div>
+<!-- Pill Nav, Filters, and Sorting Bar -->
+<div class="p-space-sm bg-surface-container-lowest rounded-xl shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-md">
+<!-- Category Filter Pills -->
+<div class="flex flex-wrap items-center gap-space-xs w-full lg:w-auto">
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-lg text-label-lg transition-all duration-200" onclick="filterCategory(this, 'all')">
+            Todos los productos
+          </button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-lg text-label-lg transition-all duration-200" onclick="filterCategory(this, 'facial')">
+            Cuidado Facial
+          </button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-lg text-label-lg transition-all duration-200" onclick="filterCategory(this, 'bano')">
+            Higiene &amp; Ducha
+          </button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-lg text-label-lg transition-all duration-200" onclick="filterCategory(this, 'aceites')">
+            Aceites &amp; Sérums
+          </button>
+<button class="cat-pill px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-lg text-label-lg transition-all duration-200" onclick="filterCategory(this, 'calmantes')">
+            Rutinas Calmantes
+          </button>
+</div>
+<!-- Controls: Sorter & Total Display -->
+<div class="flex items-center justify-between w-full lg:w-auto gap-space-md pt-2 lg:pt-0">
+<span class="font-body-sm text-body-sm text-on-surface-variant whitespace-nowrap">8 formulaciones activas</span>
+<div class="flex items-center gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant whitespace-nowrap" for="sort-select">Ordenar por:</label>
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-on-surface font-body-sm text-body-sm px-space-md py-space-xs pr-8 rounded-full focus:outline-none focus:bg-surface-container" id="sort-select">
+<option>Más populares</option>
+<option>Menor precio</option>
+<option>Mayor concentración</option>
+<option>Novedades</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Rectangular Product Catalog Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter" id="product-grid">
+<!-- Product 1 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="aceites">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md tracking-wider">
+              Best Seller
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Elegant amber glass dropper bottle of Rosehip and Niacinamide serum on soft textured blush pink linen fabric, gentle morning light, high luxury cosmetic packaging photography with crisp details." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE2hzkLkKGGgkVIrvqn9Jj5fk_QxTcqmyQW2KeA4iurWalYptEbDxwaTfcxWiV4a_XGo05TXhIyTDsiHf3VGhgdSVw868LhmzRVnyddm_Jfgg8FnMLL0tOaNA5I_Y6Nuqs5q8PNUP-8ZDTPg-cfcBAP_w6zskg6YfpVy0eseSgXnyE5joWNBKeIcGYJw7IZ4xh-1ZQ2Z-EcgofIx6858aoJj3UqVodyAV1PmWB-E34vpF0WRttEwEQQA"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Aceites &amp; Sérums • 30ml</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 4.9 (124)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Sérum Iluminador Rosa Mosqueta &amp; Niacinamida
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Atenúa manchas y promueve la síntesis de colágeno natural mediante bioflavonoides activos.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$28.50</span>
+<span class="font-body-sm text-body-sm text-outline line-through">$34.00</span>
+</div>
+<span class="font-label-md text-label-md text-secondary">Ahorra 16%</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="facial">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md tracking-wider">
+              Calmante
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Frosted glass pump dispenser of botanical lavender and chamomile facial cleanser placed on a pale lilac travertine marble surface, subtle water ripples, botanical studio aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFWrc3HzU5v9hp0M1WSuq9SQJFLHwthvlBIRga0B-TPhnRdh21qn458ZKp2WBcSdErcRBccCagLE0OAKBjn9bg86G4HnDjQLPm5kFbkWApl1mVnzFFB8msE_MrOgJs11xQdVK55MpG5DIEIb_SGuGRxsM09_Y2oNgQ0PXxspENQQjY8Qf1VE2w_NYq5aMYe2G-jrIoAtVGOHPdniGQLgpQLivS5-vV4ryHhV9HfaWQTJdu7KzqTrv2Ig"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Limpieza Facial • 150ml</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 4.8 (89)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Limpiador Facial Botánico de Lavanda &amp; Camomila
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Fórmula sedosa sin sulfatos que disuelve impurezas preservando la barrera lipídica esencial.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$22.00</span>
+<span class="font-label-md text-label-md text-on-surface-variant">En stock</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="bano">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-surface-container-highest text-on-surface font-label-md text-label-md tracking-wider">
+              Higiene Diaria
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist soft pink bathroom soap bottle of White Lily and Almond shower gel, delicate natural foam accents, elegant light beige ceramic tiled background, luxury body care aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8etHDkMyXsC4-pcEYr9xCD_QGoIuXa2dPqVs24AJCHpYXN0dluvKtk0X7pXdn7rFPbOKdtFVTq3x1DxUJlR_2mtIAKLaP86GouDyYVZemU2Ghfg7AAbsPVgx5GwcYPlmcZVHKw1N2Ub_M5fXD-y6YP8jZteye5z7Relfi1HTwGz6VSEUWx64S6-D2P64PJbuZP4YOhMEgNAqpvwpBOrZukGRsLohojdiQlrMWumt0b9a-t_ofwUPZpQ"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Higiene Corporal • 300ml</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 5.0 (208)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Gel de Baño Sedoso Lirio Blanco &amp; Almendras
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Infusión nutritiva de leche vegetal de almendras y extracto floral para una nutrición sublime.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$19.50</span>
+<span class="font-label-md text-label-md text-secondary-fixed-dim bg-secondary/10 px-2 py-0.5 rounded">Popular</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="facial">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md tracking-wider">
+              Antiedad
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Chic frosted glass jar with warm cream firming facial cream with shea butter and peptides, rich buttery swirl texture, soft aesthetic natural lighting with botanical leaf shadow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuWejNiV7cEuo9m5nL9itA91s-BaBf7MQSGK4kTdol3BDGTW4Yi9sJBilrd7dEvBfRYUDKvNXgFkd2W-gzekzzW8zKoyvXTDkHXP5WROxZTcw1Bb1qAOdNUbvN-UtRnLgBCoAaInu776z3NKUsq9SkPmLsAhgBDPczr-4nbLy7TJYaqdmlpsOKS5wUGkiGDT_UiUQsh9OBEl6-fNKCjOarQFEoTpgPbNU8kL9p6aWq7O1Vdi0plo0HYQ"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Cuidado Facial • 50ml</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 4.9 (67)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Crema Hidratante Reafirmante con Péptidos &amp; Karité
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Estructura dérmica fortalecida mediante péptidos de arroz y manteca silvestre de karité orgánico.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$34.00</span>
+<span class="font-label-md text-label-md text-on-surface-variant">50ml</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product 5 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="calmantes">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md tracking-wider">
+              Esencial
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Small metallic rose gold tin of floral restorative lip balm with candelilla wax and rose petals, delicate macro shot on light warm wood surface, clean natural look." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlU6UVid7ZwVHLBFIwSo24FNfUeuHWYW6pIQTkptHJ42VX0Hcb0o1IdE8U-kfYZbKAFAFQr1kmTRYL1YouoVgwx8Oio1ARsOBZeyyMIItn4uqREg-kgjV44EF7HHhzRGiWDh8JeDiBi_gvHTSNA-jWrtKEIbMfFIhXG1e3epHfn92rj9vF0uiXcSBajv4yEHYTejDQzYfIoPlS4c6EDNJKVqJoIvSE2sY5qe6dJGleIplyCeu9qRNrqw"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Cuidado Labial • 15g</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 4.8 (143)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Bálsamo Labial Reparador Floral &amp; Cera de Candelilla
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Nutrición instantánea no pegajosa que regenera labios secos con manteca botánica y cera vegetal.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$12.00</span>
+<span class="font-label-md text-label-md text-secondary">Vegano</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product 6 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="bano">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md tracking-wider">
+              Exfoliación
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Glass jar of pink Himalayan salt and hibiscus body scrub, crystalline pink mineral grains texture with dried flower infusion, serene natural spa setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTg4TFyHGTdPQyTvBgDG_5co-EdYXw51EbkRFGni05MA2K86bU-on2_DVDDtemIqV3m1nRUddtmtgVmg9uv2HPdiA15HYVA81lD71ajDhfBcfYjQZIcsxe8M5y586-yRo_AYfRnaGLaPa-u0ER6sbDCD9m-bZ02PMPxycKiOgjfF8Jy6YLTi2Wv7r-4iFJk_24I3Na6TNa8ydPxs5X4WkXrw9IGME8z-iLjVEsFPQtElStRAMR-32cGg"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Higiene Corporal • 250g</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 4.9 (98)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Exfoliante Corporal Sales del Himalaya &amp; Hibisco
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Elimina células muertas mientras revitaliza la microcirculación cutánea mediante cristales puros.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$26.00</span>
+<span class="font-label-md text-label-md text-on-surface-variant">250g</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product 7 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="facial">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md tracking-wider">
+              Tonificante
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Frosted glass mist spray bottle with delicate rose water droplet dispersion, soft morning light in warm cream studio setting with delicate Damascus rose petals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuEAL4hZSgldj6RbK0BRGlplyIdihrDFIooFkYJrYe7BSKAzoVhR97t-K0I46hZF5ZPeK5ICt5hCsls_rkTfS8uTnrpVQgEmsLPorLchmI6qwslNVvHjsw3mqKgkF_z34y7niNWN5fbepO9-OnrelmdWvVx_ua7_BVdoHZEwqh7zbl8luuoDZJRte5jQ2wUJENCA02_Ed_szeLjrLZkVpXis2tZJaqUclVlnVegVPxMnwSVGb4Ptwplg"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Cuidado Facial • 100ml</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 4.9 (176)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Bruma Tonificante de Agua de Rosas &amp; Prebióticos
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Restaura el manto hidrolipídico y equilibra el microbioma cutáneo a lo largo de toda la jornada.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$18.00</span>
+<span class="font-label-md text-label-md text-outline">pH 5.5</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product 8 -->
+<div class="product-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-category="aceites">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<span class="absolute top-3 left-3 z-10 px-space-sm py-1 rounded-full bg-tertiary text-on-tertiary font-label-md text-label-md tracking-wider">
+              Novedad
+            </span>
+<button aria-label="Vista rápida" class="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-surface/80 backdrop-blur-md text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-surface" onclick="openModal('quickview-modal')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Violet dark apothecary dropper bottle of night restorative lotus flower and plant squalane oil, soft twilight moody aesthetic with gentle lilac highlights on slate stone." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPOaTNl_yetGmVAx8IchxOEFhKWvQKUmlGODnRLGoXQHOK1CrmrwChNBpvpImIMS60GKaN7xXfsHWVj_3uW4xlGBO8mMdi2LaCuY-v_GSpZNZp1XIfAKi7j4X_4ei16EA6U46qtNM2UsHn7Pp6Z8ZbNcpzE_Q64_D4sYJnNwrV7PGk0tGNSqQI6RJSYbdVSIWcgcgXt9MVNdr4lfgNoyPNc_KpyLZnpZcvua8WXoUbn2qfUkYb1c05sA"/>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant mb-1">
+<span>Aceites &amp; Sérums • 30ml</span>
+<span class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[16px] text-amber-500 fill-current">star</span> 5.0 (42)
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Aceite Nutritivo Nocturno Flor de Loto &amp; Escualano
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                Tratamiento intensivo que actúa durante el ciclo circadiano de reparación celular nocturna.
+              </p>
+</div>
+<div class="pt-space-xs space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<span class="font-price-lg text-price-lg text-primary font-semibold">$36.00</span>
+<span class="font-label-md text-label-md text-secondary">Edición Limitada</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors text-center" onclick="openModal('quickview-modal')">
+                  Ver detalle
+                </button>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-tertiary transition-colors flex items-center justify-center gap-1" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+                  Añadir
+                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Botanical Routine Showcase Banner -->
+<section class="w-full bg-surface-container-low py-space-2xl" id="rutinas">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+<div class="rounded-xl bg-gradient-to-r from-secondary-fixed/50 via-surface-container-lowest to-primary-fixed/40 p-space-lg md:p-space-xl shadow-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest block">Ritual Diario Aura</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              El Poder del Ritual en 3 Pasos
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Diseñado para sincronizarse con el reloj biológico de tu piel. Limpieza suave matinal, hidratación celular activa al mediodía y reparación profunda por la noche.
+            </p>
+<div class="p-space-md rounded-lg bg-surface-container-lowest/80 backdrop-blur-sm space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Pack Ritual Completo</span>
+<span class="font-price-lg text-price-lg text-primary font-semibold">$62.00 <span class="text-body-sm font-normal line-through text-outline">$74.50</span></span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary">Ahorra 15% adquiriendo el conjunto completo de temporada.</p>
+</div>
+<button class="px-space-xl py-3.5 rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-tertiary transition-all duration-200 shadow-md" onclick="toggleDrawer('cart-drawer')">
+              Añadir Set Completo al Carrito (-15%)
+            </button>
+</div>
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<!-- Step 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<span class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg flex items-center justify-center mb-space-sm">01</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Purificar</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Limpiador Lavanda &amp; Camomila para purificar los poros sin alterar el manto ácido protector.</p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-surface-variant flex items-center gap-space-xs text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">wb_twilight</span> Mañana &amp; Noche
+              </div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed font-label-lg text-label-lg flex items-center justify-center mb-space-sm">02</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Nutrir</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sérum Iluminador con Rosa Mosqueta silvestre para restaurar la luminosidad y tono uniforme.</p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-surface-variant flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">light_mode</span> Absorción Rápida
+              </div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<span class="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-lg text-label-lg flex items-center justify-center mb-space-sm">03</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Sellar</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Crema Reafirmante con Péptidos botánicos para sellar la humedad e hidratar hasta 24 horas.</p>
+</div>
+<div class="mt-space-md pt-space-xs border-t border-surface-variant flex items-center gap-space-xs text-tertiary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">bedtime</span> Acción Regeneradora
+              </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Rich Dropdown Menu / Discovery Hub -->
+<section class="w-full bg-surface-container-lowest py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin space-y-space-lg">
+<div class="text-center max-w-xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Compromiso &amp; Asesoramiento</span>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">Explorador de Cuidado Personal</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Encuentra la armonía perfecta entre las necesidades singulares de tu dermis y nuestros extractos florales.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Col 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">menu_book</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-on-surface">Catálogo Completo</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Acceso a todas las fórmulas botánicas, listas de lotes y trazabilidad de activos.</p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:underline" href="#catalogo">
+            Ver todas las fórmulas <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Col 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined">category</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-on-surface">Productos por Categoría</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Filtra según tipo de piel: seca, madura, sensible, mixta o propensa al estrés ambiental.</p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary hover:underline" href="#catalogo">
+            Explorar categorías <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Col 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined">psychology_alt</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-on-surface">Test de Piel Personalizado</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Responde 4 preguntas breves y nuestro algoritmo botánico sugerirá tu combinación ideal.</p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-tertiary hover:underline" href="#rutinas">
+            Iniciar test guiado <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Col 4 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors space-y-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">support_agent</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-on-surface">Contacto &amp; Atención</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Consultas dermatológicas y seguimiento de envíos con nuestras cosmetólogas de cabecera.</p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:underline" href="#">
+            Hablar con asesora <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Product Detail Preview / Quick View Modal -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-4" id="quickview-modal">
+<!-- Backdrop -->
+<div class="modal-backdrop fixed inset-0 bg-on-surface/40 backdrop-blur-sm transition-opacity duration-300 opacity-0" onclick="closeModal('quickview-modal')"></div>
+<!-- Modal Panel -->
+<div class="modal-panel relative w-full max-w-4xl bg-surface-container-lowest rounded-xl shadow-2xl overflow-hidden transform scale-95 opacity-0 transition-all duration-300 z-10 max-h-[90vh] overflow-y-auto">
+<button aria-label="Cerrar modal" class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface flex items-center justify-center transition-colors" onclick="closeModal('quickview-modal')">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter p-space-lg md:p-space-xl">
+<!-- Visual Column -->
+<div class="md:col-span-6 space-y-space-sm">
+<div class="aspect-[4/5] rounded-lg bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover object-center" data-alt="Close up detailed macro of organic Rosehip and Niacinamide serum bottle with glass dropper displaying a radiant golden amber drop on soft pink background, clean luxury skincare aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgcxsZvbBcAh5axa-azUkFjAHyqCvyaVy4BfLyi-qB3L_IyWc4kSe7Dvvzq7qRIAO9aWEEOAYDkJdFhYsVwaxHp5qDRzgpJ-3q5E9Ro4Z_iLsOakSYf20pDdVjbYaTbsdfQ68p_r09ik09er491rLnhLfNkPZa3_g1Sl2PeA_J7XEaPQoMcc22Lmx_Hn4Y3eJCHwrdC4dj89ak4Zd4YHF7sNvsZt0D_o3AK1TaMvKw5IiUaMTLFp55aA"/>
+</div>
+<div class="grid grid-cols-3 gap-space-xs">
+<div class="aspect-square rounded-base bg-surface-container-low overflow-hidden p-1">
+<img class="w-full h-full object-cover rounded-base" data-alt="Macro texture of smooth rich botanical facial serum droplet on silky glass, warm aesthetic cosmetics." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBupXGpd9yw3cBezToyZmDVDj4zuSbf8ra5TtQRBxt2H67pmYyeHkJbyAY7x5wOGd0gg014po1qADF9rZDZkDBhmqQmcv9nMLcmxfvAKBZbL9m2Qo1v4IXMugSOYbxqXv-GSreGeZuA_Iv5I7FsCo-TdNhiTe6l4xq4Z3e0zL-Bniot4KfYDCjXXoNbW3OdMJG4QxC1CryYpIyGoBZmBNUFP-6pUYYbXtAn73GDCncHsgvKwKVL4DqNjA"/>
+</div>
+<div class="aspect-square rounded-base bg-surface-container-low overflow-hidden p-1">
+<img class="w-full h-full object-cover rounded-base" data-alt="Fresh organic Rosa Mosqueta rosehip seeds and wild petals on cream ceramic surface, natural lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBghJVWOOIrDG4jNzd9vlNOA9IM4HCQ52rIJ4E_nh6LSvjn4VWtqdE1Hc7iKieMngzImowYvmwNwdhb44rWaXFVfI_pgYHKXHqu_eVQ9Hxkq67ftPk5KQhWmkXgAa5_D_PbNFLzS6OSe-RP6gX9tme9Omz8fpoOdD5oHerKEQdOYX8tpWyhBnO4R7V2zhobhnZkdU6E7ZpNZe_ii7-l6OoPUIcWFGH6VG20R4UjBzvvEwZHn9DN9nmypg"/>
+</div>
+<div class="aspect-square rounded-base bg-surface-container-low overflow-hidden p-1">
+<img class="w-full h-full object-cover rounded-base" data-alt="Sustainable eco glass amber bottle packaging box made from recycled fiber with botanical embossed pattern." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz0VK4dHMaB_OTKxlphA6iiV4qVLxDdCNE7BQVh_y2_IPWNsgKAO9kPm8GWalZQSbTNBHj-cGAaBCbPoMEFgSUJlZFQxex-w5kBzUcCVXHsy0y7cGGe7KRkiF9ff3FPKIf659hx1KdgZTSOO1EKxg53AWjd0T8RtY4VboCvCSSVj3qTswsi5FauLvq1QRg0R8v3Mq-WFu4ZDZ31l75Dku8DlO7aXhHk45P9CJThbipD8w68KD6OEDb4g"/>
+</div>
+</div>
+</div>
+<!-- Detail Column -->
+<div class="md:col-span-6 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-2">
+<span class="px- space-xs px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">Best Seller Destacado</span>
+<span class="text-body-sm text-outline">Ref. AB-701</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">
+              Sérum Iluminador Rosa Mosqueta &amp; Niacinamida
+            </h3>
+<div class="flex items-center gap-space-xs text-body-sm">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<span class="font-semibold text-on-surface">4.9</span>
+<span class="text-on-surface-variant">(124 valoraciones)</span>
+</div>
+<div class="flex items-baseline gap-space-sm pt-space-xs">
+<span class="font-price-lg text-price-lg text-primary font-bold text-2xl">$28.50</span>
+<span class="font-body-md text-body-md text-outline line-through">$34.00</span>
+<span class="px-2 py-0.5 rounded bg-secondary/10 text-secondary font-label-md text-label-md">16% de Descuento</span>
+</div>
+</div>
+<!-- Formulation Specs Accordion/Highlights -->
+<div class="space-y-space-sm pt-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<p class="font-label-md text-label-md text-primary font-semibold mb-1">Beneficios Clínicos Clave</p>
+<ul class="text-body-sm font-body-sm text-on-surface-variant space-y-1 list-disc list-inside">
+<li>Atenúa hiperpigmentaciones y unifica el tono en 14 días.</li>
+<li>Refuerza la barrera epidérmica con un 5% de niacinamida pura.</li>
+<li>Ácidos grasos esenciales Omega 3, 6 y 9 de rosa silvestre.</li>
+</ul>
+</div>
+<div class="space-y-1 text-body-sm font-body-sm text-on-surface-variant">
+<p><strong class="text-on-surface">Ingredientes Activos:</strong> Aceite de semilla de Rosa Rubiginosa*, Niacinamida vegetal, Ácido Hialurónico biológico de bajo peso molecular, Tocoferol (Vitamina E natural).</p>
+<p><strong class="text-on-surface">Modo de Aplicación:</strong> Aplicar 3 a 4 gotas sobre el rostro limpio y húmedo cada mañana antes de la hidratante.</p>
+</div>
+</div>
+<!-- Quantity & Purchase CTAs -->
+<div class="space-y-space-sm pt-space-sm">
+<div class="flex items-center gap-space-md">
+<span class="font-label-md text-label-md text-on-surface">Cantidad:</span>
+<div class="inline-flex items-center rounded-full bg-surface-container-high px-space-xs py-1">
+<button class="w-8 h-8 rounded-full flex items-center justify-center text-primary hover:bg-surface-variant transition-colors" onclick="adjustQty('modal-qty-val', -1)">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="px-space-md font-price-md text-price-md font-semibold text-on-surface" id="modal-qty-val">1</span>
+<button class="w-8 h-8 rounded-full flex items-center justify-center text-primary hover:bg-surface-variant transition-colors" onclick="adjustQty('modal-qty-val', 1)">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs">
+<button class="w-full py-3.5 rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-tertiary transition-colors shadow-md text-center" onclick="closeModal('quickview-modal'); toggleDrawer('cart-drawer');">
+                Añadir a la Cesta
+              </button>
+<button class="w-full py-3.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg hover:bg-secondary-fixed-dim transition-colors text-center" onclick="closeModal('quickview-modal'); toggleDrawer('cart-drawer');">
+                Comprar Ahora
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Shopping Cart Drawer (Offcanvas Slide-over) -->
+<div class="fixed inset-0 z-50 hidden" id="cart-drawer">
+<!-- Backdrop -->
+<div class="drawer-backdrop fixed inset-0 bg-on-surface/40 backdrop-blur-sm transition-opacity duration-300 opacity-0" onclick="toggleDrawer('cart-drawer')"></div>
+<!-- Right Drawer Surface -->
+<div class="drawer-panel fixed top-0 right-0 h-full w-full max-w-md bg-surface-container-lowest shadow-2xl flex flex-col justify-between transform translate-x-full transition-transform duration-300 z-10">
+<!-- Drawer Header -->
+<div class="p-space-md bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">shopping_bag</span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Tu Bolsa de Belleza</h3>
+<span class="w-6 h-6 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center">2</span>
+</div>
+<button aria-label="Cerrar bolsa" class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors" onclick="toggleDrawer('cart-drawer')">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Shipping Progress Indicator -->
+<div class="px-space-md py-space-sm bg-secondary-container/40 space-y-space-xs">
+<div class="flex justify-between items-center text-body-sm font-body-sm text-on-secondary-container">
+<span class="font-semibold">¡Faltan $12.00 para envío gratis!</span>
+<span>80%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 80%;"></div>
+</div>
+</div>
+<!-- Cart Items List -->
+<div class="flex-1 overflow-y-auto p-space-md space-y-space-md">
+<!-- Item 1 -->
+<div class="flex gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<div class="w-20 h-24 rounded-base bg-surface-container-lowest shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Organic Rosehip serum bottle on light cream fabric in studio lighting, high end organic cosmetic packaging." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP1jaIYT5x6UN1ChDLm9KwwBKStvBadbMT4KVl63WkigBPxLkTbNfQ9o8Ttm8xBicg1h-Bg9DPbG4Tve2pEn9qI5f3JzELM-dTkM-G8aoW0sAAFQZLwHgqo6ro6ipwTu7U_8yK3dwcpeS4SZzo5mW9YskCNb25URDJRgJJypbt3J24jVNPKksOd9iHFWDZh4cnwU3ax-VjFacM6t-31DU888JKoF1TPffoZX8QHvwCaB6lgL-2feH5uQ"/>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start">
+<h4 class="font-title-md text-title-md text-on-surface line-clamp-1">Sérum Iluminador Rosa Mosqueta</h4>
+<button aria-label="Eliminar producto" class="text-outline hover:text-error transition-colors">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Frasco 30ml con pipeta</p>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="inline-flex items-center rounded-full bg-surface-container px-2 py-0.5">
+<button class="text-primary hover:text-on-surface text-[14px] font-bold px-1" onclick="adjustQty('qty-item-1', -1)">−</button>
+<span class="px-2 font-body-sm text-body-sm font-semibold" id="qty-item-1">1</span>
+<button class="text-primary hover:text-on-surface text-[14px] font-bold px-1" onclick="adjustQty('qty-item-1', 1)">+</button>
+</div>
+<span class="font-price-md text-price-md text-primary font-semibold">$28.50</span>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<div class="w-20 h-24 rounded-base bg-surface-container-lowest shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Minimalist pump bottle of White Lily and Almond shower gel on cream surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoEkZI8YKJUzgORsqWKwjPV16NSKV5JHnwudbHJ3unYy1rkFnk6wF7uqDbmz84naVbiwQqvAICEG9nfXC39BFMPDGVjHBfe0CEdVVwFc-nP9PIYtvOwX7ZZ91vWcRBZW0j7oONdm8D47Z4xJrw01ovKlv8A8GomcoTG68E_L-18h9B0w3hrfDhe7gjIrPepEWBueopGNtqUxlv7aabaNAZ0tVkNrNnXLsjR91GcUOHRZBlDLSM_D_71Q"/>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start">
+<h4 class="font-title-md text-title-md text-on-surface line-clamp-1">Gel de Baño Sedoso Lirio Blanco</h4>
+<button aria-label="Eliminar producto" class="text-outline hover:text-error transition-colors">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Envase familiar 300ml</p>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="inline-flex items-center rounded-full bg-surface-container px-2 py-0.5">
+<button class="text-primary hover:text-on-surface text-[14px] font-bold px-1" onclick="adjustQty('qty-item-2', -1)">−</button>
+<span class="px-2 font-body-sm text-body-sm font-semibold" id="qty-item-2">1</span>
+<button class="text-primary hover:text-on-surface text-[14px] font-bold px-1" onclick="adjustQty('qty-item-2', 1)">+</button>
+</div>
+<span class="font-price-md text-price-md text-primary font-semibold">$19.50</span>
+</div>
+</div>
+</div>
+<!-- Promotional Promo Box -->
+<div class="p-space-sm rounded-lg bg-secondary-fixed/30 space-y-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">redeem</span> Muestra botánica gratuita añadida
+          </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Incluimos mini-bálsamo labial de cortesía en este pedido.</p>
+</div>
+</div>
+<!-- Drawer Footer & Checkout Action -->
+<div class="p-space-md bg-surface-container-low space-y-space-sm">
+<!-- Promo Coupon Input -->
+<div class="flex gap-space-xs">
+<input class="flex-1 px-space-md py-2 rounded-full bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-outline" placeholder="Código de descuento (ej. AURAPURE)" type="text"/>
+<button class="px-space-md py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors">
+            Aplicar
+          </button>
+</div>
+<div class="space-y-1 pt-space-xs">
+<div class="flex justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Subtotal</span>
+<span>$48.00</span>
+</div>
+<div class="flex justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Envío estimado</span>
+<span>$4.50</span>
+</div>
+<div class="flex justify-between text-title-lg font-title-lg text-on-surface pt-1 border-t border-surface-variant">
+<span>Total</span>
+<span class="text-primary font-bold">$52.50</span>
+</div>
+</div>
+<button class="w-full py-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-tertiary transition-colors shadow-lg flex items-center justify-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px]">lock</span>
+<span>Proceder al Pago Seguro</span>
+</button>
+<p class="text-center font-body-sm text-body-sm text-on-surface-variant flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[14px]">shield</span> Pago cifrado de 256 bits • Garantía botánica de 30 días
+        </p>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-low border-t border-surface-variant mt-space-2xl"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter"><div class="lg:col-span-4 space-y-space-md"><div class="font-headline-md text-headline-md text-on-surface">Aura Botanica</div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">El equilibrio perfecto entre rigor dermocosmético y botánica viva. Fórmulas botánicas conscientes concebidas para el bienestar de la piel y el entorno.</p><div class="pt-space-xs"><span class="font-label-md text-label-md text-primary tracking-widest uppercase block mb-space-xs">Compromiso Sustentable</span><p class="font-body-sm text-body-sm text-on-surface-variant">100% envases reciclables, ingredientes de recolección ética y cero crueldad animal.</p></div></div><div class="lg:col-span-2 space-y-space-sm"><div class="font-title-md text-title-md text-on-surface">Explorar</div><ul class="space-y-space-xs"><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="catalogo-completo" href="#">Catálogo Completo</a></li><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="cuidado-facial" href="#">Cuidado Facial</a></li><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="higiene-y-bano" href="#">Higiene &amp; Baño</a></li><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="rutinas-botanicas" href="#">Rutinas Botánicas</a></li><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="novedades" href="#">Novedades</a></li></ul></div><div class="lg:col-span-2 space-y-space-sm"><div class="font-title-md text-title-md text-on-surface">Atención al Cliente</div><ul class="space-y-space-xs"><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="preguntas-frecuentes" href="#">Envíos &amp; Entregas</a></li><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="preguntas-frecuentes" href="#">Preguntas Frecuentes</a></li><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="politicas-de-devolucion" href="#">Devoluciones</a></li><li class="leading-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="contacto" href="#">Contacto Directo</a></li></ul></div><div class="lg:col-span-4 space-y-space-md"><div class="font-title-md text-title-md text-on-surface">El Boletín Botánico</div><p class="font-body-md text-body-md text-on-surface-variant">Recibe selecciones editoriales, acceso prioritario a formulaciones de temporada e invitaciones privadas.</p><form class="flex flex-col sm:flex-row gap-space-xs"><input class="flex-1 px-space-md py-space-sm bg-surface-container-lowest border border-surface-variant rounded-lg font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:border-primary" placeholder="Introduce tu correo electrónico" type="email"/><button class="px-space-lg py-space-sm bg-primary text-on-primary font-label-lg text-label-lg rounded-full hover:bg-primary-container transition-colors" type="button">Unirse</button></form></div></div><div class="mt-space-2xl pt-space-lg border-t border-surface-variant flex flex-col md:flex-row justify-between items-center gap-space-md font-body-sm text-body-sm text-on-surface-variant"><div>© 2025 Aura Botanica S.L. Todos los derechos reservados.</div><div class="flex gap-space-lg"><a class="hover:text-primary transition-colors" href="#">Privacidad</a><a class="hover:text-primary transition-colors" href="#">Términos &amp; Condiciones</a><a class="hover:text-primary transition-colors" href="#">Trazabilidad Botánica</a></div></div></div></footer></body></html>
