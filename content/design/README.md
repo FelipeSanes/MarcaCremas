@@ -1,20 +1,17 @@
 # content/design
 
-Identidad visual de Aura Botánica: logo, paleta, tipografías y referencias.
+Identidad visual de la marca: logo, paleta, tipografías y referencias.
 
-## Pendiente: export de Stitch
+## `stitch/` — diseño base (Google Stitch)
 
-El diseño base está en Google Stitch (proyecto "Tienda Cuidado de Piel",
-pantallas "Aura Botanica Logo" y "Aura Botanica - Tienda de Cuidado & Higiene").
-Guardar acá:
+Export del proyecto "Tienda Cuidado de Piel":
 
-```
-content/design/stitch/
-├── DESIGN.md            # sistema de diseño (colores, tipografías)
-└── screens/
-    ├── logo/            (screen.png + code.html)
-    └── tienda/          (screen.png + code.html)
-```
+- `stitch/DESIGN.md` — sistema de diseño "Atelier Botanical & Skin" (colores,
+  tipografías, radios, sombras, componentes). Sus tokens están aplicados en
+  `tailwind.config.ts`.
+- `stitch/screens/logo/` — logo "Aura Botanica" (recortado en `public/marca/`).
+- `stitch/screens/tienda/` — pantalla de la tienda (captura + HTML de referencia).
 
-Con eso se reemplazan los valores provisorios de `tailwind.config.ts`, las
-fuentes de `app/layout.tsx` y el logo de `components/Logo.tsx`.
+Las fotos de producto y de portada del sitio salen de esa pantalla y son
+provisorias hasta tener las reales. El nombre "Aura Botánica" también es
+provisorio.

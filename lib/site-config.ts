@@ -1,10 +1,11 @@
 export const siteConfig = {
+  // Nombre provisorio de la marca (se cambia acá y en public/marca/).
   nombre: "Aura Botánica",
-  lema: "Cuidado personal e higiene, natural",
+  lema: "Cosmética botánica para tu ritual diario",
   // TODO: reemplazar por el usuario real de Instagram.
   instagramUrl: "https://instagram.com/aurabotanica",
-  // TODO: reemplazar por el número real. Formato internacional, sin espacios ni símbolos.
-  whatsappNumero: "5491100000000",
+  // Número de WhatsApp en formato internacional, sin espacios ni símbolos.
+  whatsappNumero: "5491151259002",
 };
 
 export function whatsappLink(mensaje: string): string {

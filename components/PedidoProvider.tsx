@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useState } from "react";
 
 export type ItemPedido = {
   slug: string;
@@ -18,6 +18,9 @@ type PedidoContexto = {
   cambiarCantidad: (slug: string, cantidad: number) => void;
   quitar: (slug: string) => void;
   vaciar: () => void;
+  abierto: boolean;
+  abrir: () => void;
+  cerrar: () => void;
 };
 
 const STORAGE_KEY = "aura-pedido";
@@ -27,6 +30,7 @@ const Contexto = createContext<PedidoContexto | null>(null);
 export function PedidoProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<ItemPedido[]>([]);
   const [cargado, setCargado] = useState(false);
+  const [abierto, setAbierto] = useState(false);
 
   // El pedido se guarda en el navegador para no perderlo al recargar.
   useEffect(() => {
@@ -71,13 +75,26 @@ export function PedidoProvider({ children }: { children: React.ReactNode }) {
 
   const quitar = (slug: string) => setItems((actual) => actual.filter((i) => i.slug !== slug));
   const vaciar = () => setItems([]);
+  const abrir = useCallback(() => setAbierto(true), []);
+  const cerrar = useCallback(() => setAbierto(false), []);
 
   const totalUnidades = items.reduce((suma, i) => suma + i.cantidad, 0);
   const totalPrecio = items.reduce((suma, i) => suma + i.cantidad * i.precio, 0);
 
   return (
     <Contexto.Provider
-      value={{ items, totalUnidades, totalPrecio, agregar, cambiarCantidad, quitar, vaciar }}
+      value={{
+        items,
+        totalUnidades,
+        totalPrecio,
+        agregar,
+        cambiarCantidad,
+        quitar,
+        vaciar,
+        abierto,
+        abrir,
+        cerrar,
+      }}
     >
       {children}
     </Contexto.Provider>

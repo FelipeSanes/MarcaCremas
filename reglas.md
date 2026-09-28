@@ -9,21 +9,28 @@ Cada producto es un archivo `.md` en `content/productos/`, nombrado como su
 
 ```yaml
 ---
-slug: crema-facial-hidratante
-nombre: Crema Facial Hidratante
-categoria: rostro           # rostro | cuerpo | cabello | higiene | kits
-precio: 18500
+slug: serum-rosa-mosqueta
+nombre: "Sérum Iluminador Rosa Mosqueta"
+categoria: aceites          # facial | higiene | aceites | rutinas
+precio: 28500
+precioAnterior: 34000       # opcional: muestra precio tachado y % de ahorro
 moneda: ARS
-stock: 14
-presentacion: Frasco 50 ml  # opcional (tamaño, contenido del kit, etc.)
+stock: 15
+presentacion: "Frasco 30 ml con pipeta"   # opcional
+etiqueta: "Best Seller"                   # opcional: badge sobre la foto
+resumen: "Frase corta para la tarjeta del catálogo."
+beneficios:                               # opcional: lista de puntos
+  - "Atenúa manchas."
+ingredientes: "Aceite de rosa mosqueta, ..."   # opcional
+modoDeUso: "Aplicar 3 a 4 gotas ..."           # opcional
 imagenes:
-  - /productos/crema-facial-hidratante/1.jpg
-  - /productos/crema-facial-hidratante/2.jpg
+  - /productos/serum-rosa-mosqueta/1.jpg
+  - /productos/serum-rosa-mosqueta/2.jpg
 destacado: true
 publicado: true
 ---
 
-Descripción del producto (beneficios, ingredientes, modo de uso).
+Descripción del producto.
 ```
 
 - `slug` único, en minúsculas, sin espacios ni tildes, separado por guiones.
@@ -35,7 +42,7 @@ Descripción del producto (beneficios, ingredientes, modo de uso).
 
 ## 2. Imágenes
 
-- Formato: JPG o WEBP (los `.svg` actuales son placeholders de ejemplo).
+- Formato: JPG o WEBP (las fotos actuales son de ejemplo, generadas por Stitch).
 - Carpeta: `public/productos/<slug>/`, numeradas `1.jpg`, `2.jpg`, ...
 - Relación de aspecto: **4:5 vertical** (ej. 1200×1500 px), fondo claro/uniforme.
 - Peso objetivo: ≤ 500 KB por imagen.

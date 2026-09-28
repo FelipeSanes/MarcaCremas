@@ -14,15 +14,15 @@ export function WhatsAppButton({
 }) {
   const estilos =
     variante === "solido"
-      ? "bg-primary text-on-primary hover:bg-primary-hover"
-      : "border border-primary text-primary hover:bg-primary-container";
+      ? "bg-primary text-on-primary hover:bg-primary-hover hover:shadow-glow"
+      : "bg-surface-container-low border border-lilac text-primary hover:bg-blush-tint hover:border-blush-tint";
 
   return (
     <a
       href={whatsappLink(mensaje)}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-flex items-center justify-center gap-2 font-sans text-label-md px-6 py-4 rounded-full transition-colors ${estilos} ${className}`}
+      className={`inline-flex items-center justify-center gap-2 font-sans text-label-lg uppercase px-7 py-3.5 rounded-full transition-all ${estilos} ${className}`}
     >
       <WhatsAppIcon />
       {texto}
